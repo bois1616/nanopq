@@ -11,3 +11,17 @@ line_length = 88
 py_version = "py37"
 [[tool.pysen.lint.mypy_targets]]
   paths = ["."]
+[tool.poetry]
+name = "nanopq"
+version = "0.1.0"
+description = ""
+authors = ["bois1616 <github@hexenwoche.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
